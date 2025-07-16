@@ -1,0 +1,35 @@
+import json
+
+def parse_metric(line: str) -> dict:
+    try:
+        return json.loads(line)
+    except json.JSONDecodeError:
+        return {}
+import json
+
+def parse_metric(line: str) -> dict:
+    try:
+        return json.loads(line)
+    except json.JSONDecodeError:
+        return {}
+import json
+
+def parse_metric(line: str) -> dict:
+    try:
+        return json.loads(line)
+    except json.JSONDecodeError:
+        return {}
+import json
+
+def parse_metric(line: str) -> dict:
+    try:
+        return json.loads(line)
+    except json.JSONDecodeError:
+        return {}
+import json
+
+def parse_metric(line: str) -> dict:
+    try:
+        return json.loads(line)
+    except json.JSONDecodeError:
+        return {}
