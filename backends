@@ -1,0 +1,11 @@
+from backends import send_to_prometheus, send_to_graphite, send_to_loki
+import random
+
+def dispatch(metric: dict):
+    route = random.choice(["prometheus", "graphite", "loki"])
+    if route == "prometheus":
+        send_to_prometheus(metric)
+    elif route == "graphite":
+        send_to_graphite(metric)
+    else:
+        send_to_loki(metric)
